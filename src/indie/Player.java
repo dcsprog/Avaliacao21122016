@@ -20,6 +20,7 @@ public class Player extends SensibleDummy{
 	private int fatique;
 	private int atack;
 	private int defense;
+	private char faceTo;
 	
 
 
