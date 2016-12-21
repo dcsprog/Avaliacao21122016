@@ -8,11 +8,12 @@ public class Player extends SensibleDummy{
 	
 	
 
-	public Player(int fatique, int atack, int defense) {
+	public Player(int fatique, int atack, int defense, char faceTo) {
 		super();
 		this.fatique = fatique;
 		this.atack = atack;
 		this.defense = defense;
+		this.faceTo = faceTo;
 	}
 
 
